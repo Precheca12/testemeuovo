@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--comando para linkar arquivo html com o css-->
+    <link rel="shortcut icon" href="fumec.png" type="image/x-png" />
+    <!--comando para adicionar icone na pagina-->
+    <title>IntroduçãoWEB</title>
+</head>
+
+<body class="bg">
+    <!--comando de classe para linkar classe feita no css-->
+    <center>
+        <!--comando para centralizar texto-->
+        <h1>Exemplo</h1> <br> <br> <br> <br>
+        <p1>Texto aleatorio</p1>
+    </center>
+
+    <div id="video">
+        <!--comando div serve para criar qual quer coisa aq para modificar no css pela tag #, comando abaixo é o incorporar do vídeo do youtube-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OleUFDp_1ps" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <h1 id='horas'></h1>
+    </div>
+
+</body>
+<script>
+
+    function relogio() { //indicando a função relogio
+        let elementoID = document.getElementById('horas');
+        let horalocal = new Date().toLocaleTimeString();
+        elementoID.innerHTML = horalocal;
+    } setInterval(relogio, 1000);
+
+
+</script>
+
+</html>

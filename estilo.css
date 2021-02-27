@@ -1,0 +1,56 @@
+body{
+    height: 100%;         /*comando para configurar altura*/
+    margin: 0;           /*comando para adicionar margem*/
+}
+
+.bg{                                            /*classe criada*/
+    background-image: url(pixelll.png.jpg);    /*comando para adicionar imagem */
+    background-repeat: no-repeat;             /*comando utilizado para imagem nao repetir*/
+    background-size: cover;                  /*comando para imagem cobrir todo o espaco*/
+    background-position: center;            /*comando usado para centralizar a imagem*/
+    background-attachment: fixed;          /*comando usado para imagem nao rolar junto com a tela, ficar fixada*/
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);    /*comando para modificar a cor da letra*/
+    font-size: 40px;               /*comando utilizado para modificar tamanho da fonte*/
+    font: Arial                   /*comando para modificar a fonte da letra*/
+}
+
+p1 {
+    color: rgb(255, 255, 255);    /*comando para modificar a cor da letra*/
+    font-size: 30px;               /*comando utilizado para modificar tamanho da fonte*/
+    font: Arial                   /*comando para modificar a fonte da letra*/
+}
+
+#horas:hover {
+    color: darkgreen;
+}
+
+#horas {
+    text-align: center;                          /*alinhamento do texto*/
+    top: 250px;                                 /*distancia do topo*/
+    color: rgb(37, 172, 49);                 /*cor da hora*/
+    font-size: 20px;                          /*tamanho da fonte*/
+    margin: 0;                               /*margem*/
+    border-radius: 50px;                    /* Raio da borda*/
+    height: 0px;                           /*altura*/
+    position: absolute;                   /*posição*/
+    right: 1800px;                       /*direita*/
+    left: 0px;                          /*esquerda*/
+}
+
+#video{
+    text-align: center;                          /*alinhamento do texto*/
+    top: 250px;                                 /*distancia do topo*/
+    color: rgb(37, 172, 49);                 /*cor da hora*/
+    font-size: 20px;                          /*tamanho da fonte*/
+    margin: 0;                               /*margem*/
+    border-radius: 50px;                    /* Raio da borda*/
+    /*height: 315;                           /*altura*/
+    position: absolute;                   /*posição*/
+    right: 0px;                          /*direita*/
+    left: 0px;                          /*esquerda*/
+    /*width: 560;                        /*largura*/ 
+}
